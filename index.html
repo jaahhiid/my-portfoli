@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+    <section>
+        <img class="image" src="/image/dp.jpg" alt="DP">
+    </section>
+    <section class="name">
+        <h1 style="color: darkorange;">Md. Jahid Hasan Khan</h1>
+        <h3 style="color: darkorange;">Learner</h3>
+        <p style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia mollitia facilis
+            cupiditate doloremque ducimus debitis deserunt voluptatibus reprehenderit neque porro?</p>
+    </section>
+
+    <section class="experience-area ">
+        <h1 style="color: goldenrod ;padding-left: 20px;">Experiences</h1>
+        <div class="half-width single-experience">
+            <h2>Learning Web development</h2>
+            <h3 style="color: goldenrod;">june,2021-present</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto nostrum libero magni facilis.
+                Architecto expedita mollitia incidunt molestiae delectus.</p>
+        </div>
+        <div class="half-width single-experience">
+            <h2>Full stack web developement</h2>
+            <h3 style="color: goldenrod;">Inshah Allah I will learn</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius dignissimos maiores, magnam
+                praesentium provident tenetur quaerat exercitationem nobis velit?</p>
+        </div>
+    </section>
+
+    <section class="hobbies-area">
+        <h1 style="color: goldenrod ;padding-left: 20px;">Hobbies</h1>
+        <div class="half-width single-hobby">
+            <h2>Travelling</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempora voluptate ipsa commodi ullam labore
+                pariatur alias atque itaque fuga.</p>
+            <img style="height: 300px; width: 500px;" src="/image/t1.jpg" alt="Cricket">
+        </div>
+        <div class="half-width single-hobby">
+            <h2>Playing Cricket</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempora voluptate ipsa commodi ullam labore
+                pariatur alias atque itaque fuga.</p>
+            <img style="height: 300px; width: 400px;" src="/image/cricket.jpg" alt="Cricket">
+        </div>
+    </section>
+
+    <section class="contact-area">
+        <h1 style="color: goldenrod ;padding-left: 20px;">Contact</h1>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-square fa-2x"></i></a>
+
+            <i class="fab fa-github fa-2x"></i>
+        </div>
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="Message">Message</label><br>
+                <textarea id="message" name="Message" rows="4" cols="50">
+                </textarea> <br>
+                <label for="Email">Email</label><br>
+                <input type="email" name="email" id="email" required> <br><br>
+
+                <input type="submit" value="Submit" id="submit">
+              </form> 
+              
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Jahid 2021, All right reserved</p>
+    </footer>
 </body>
+
 </html>

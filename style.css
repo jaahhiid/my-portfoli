@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.image{
+    width: 35%;
+    height: 300px;
+    float: left;
+    background-color: aquamarine;
+    border:double white;
+}
+
+.name{
+    padding-left: 530px;
+    background-color: aqua;
+    font-size: 20px;
+    color: white;
+    height: 300px;
+    border: double white;
+}
+
+.experience-area{
+    padding-bottom: 220px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+
+.single-hobby{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,tomato);
+    border-image-slice: 1;
+}
+
+.hobbies-area{
+    padding-bottom: 500px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(90deg,green,red);
+    height: 30px;
+    width: 100%;
+}
+
+.social{
+    text-align: center;
+}
+
+#message{
+    border: double green;
+    border-radius: 10px;
+}
+
+#email{
+    border:ridge red;
+}
+
+#submit{
+    height: 30px;
+    width: 100px;
+    font-weight: 700;
+    background-color: gray;
+    color: white;
+    border: solid green;
+}
+
